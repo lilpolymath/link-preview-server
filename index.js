@@ -66,3 +66,5 @@ const takeScreenshot = async (url, path) => {
 app.listen(port, () =>
   console.log(`Preview Generator listening on port ${port}!`)
 );
+
+module.exports = app
